@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\controllers\\monitoringcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:controllers\\monitoringcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\controllers\\monitoringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:controllers\\monitoringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\dtos\\litterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:dtos\\litterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\data\\monitoringcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:data\\monitoringcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\models\\litter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +27,28 @@
       "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:models\\enrichedlitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\dtos\\predictionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:dtos\\predictionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\dtos\\locationiqreversegeocoderesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:dtos\\locationiqreversegeocoderesponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\dtos\\predictionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:dtos\\predictionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\monitoringapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:monitoringapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\dtos\\predictionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:dtos\\predictionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\MonitoringController .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\MonitoringController .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\monitoringapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:monitoringapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +58,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MonitoringController.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\MonitoringController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MonitoringController.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\MonitoringController.cs*",
+              "RelativeToolTip": "Controllers\\MonitoringController.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:13:05.994Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocationIqReverseGeocodeResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\LocationIqReverseGeocodeResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LocationIqReverseGeocodeResponseDto.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\LocationIqReverseGeocodeResponseDto.cs",
+              "RelativeToolTip": "DTOs\\LocationIqReverseGeocodeResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:49:34.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Litter.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Models\\Litter.cs",
+              "RelativeDocumentMoniker": "Models\\Litter.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Models\\Litter.cs",
+              "RelativeToolTip": "Models\\Litter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:03:03.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LitterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\LitterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LitterDto.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\LitterDto.cs*",
+              "RelativeToolTip": "DTOs\\LitterDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:30:56.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MonitoringContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Data\\MonitoringContext.cs",
+              "RelativeDocumentMoniker": "Data\\MonitoringContext.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Data\\MonitoringContext.cs",
+              "RelativeToolTip": "Data\\MonitoringContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:10:19.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T16:55:07.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnrichedLitter.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Models\\EnrichedLitter.cs",
+              "RelativeDocumentMoniker": "Models\\EnrichedLitter.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Models\\EnrichedLitter.cs",
+              "RelativeToolTip": "Models\\EnrichedLitter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:08:03.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -71,59 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LitterDto.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\LitterDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\LitterDto.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\LitterDto.cs",
-              "RelativeToolTip": "DTOs\\LitterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T17:30:56.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MonitoringContext.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Data\\MonitoringContext.cs",
-              "RelativeDocumentMoniker": "Data\\MonitoringContext.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Data\\MonitoringContext.cs",
-              "RelativeToolTip": "Data\\MonitoringContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T17:10:19.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnrichedLitter.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Models\\EnrichedLitter.cs",
-              "RelativeDocumentMoniker": "Models\\EnrichedLitter.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Models\\EnrichedLitter.cs",
-              "RelativeToolTip": "Models\\EnrichedLitter.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T17:08:03.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Litter.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Models\\Litter.cs",
-              "RelativeDocumentMoniker": "Models\\Litter.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Models\\Litter.cs",
-              "RelativeToolTip": "Models\\Litter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T17:03:03.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -136,20 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MonitoringController .cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\MonitoringController .cs",
-              "RelativeDocumentMoniker": "Controllers\\MonitoringController .cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\MonitoringController .cs",
-              "RelativeToolTip": "Controllers\\MonitoringController .cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwBgAAACaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T17:33:10.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "PredictionResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\PredictionResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\PredictionResponseDto.cs",
@@ -162,29 +196,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MonitoringApi",
+              "DocumentIndex": 10,
+              "Title": "MonitoringController .cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\MonitoringController .cs",
+              "RelativeDocumentMoniker": "Controllers\\MonitoringController .cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\MonitoringController .cs",
+              "RelativeToolTip": "Controllers\\MonitoringController .cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:33:10.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MonitoringApi.csproj",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\MonitoringApi.csproj",
               "RelativeDocumentMoniker": "MonitoringApi.csproj",
               "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\MonitoringApi.csproj",
               "RelativeToolTip": "MonitoringApi.csproj",
               "ViewState": "AgIAABMAAACAfqzM87kIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-13T17:02:42.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-13T16:55:07.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T17:02:42.447Z"
             }
           ]
         }

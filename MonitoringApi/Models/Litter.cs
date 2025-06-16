@@ -6,13 +6,19 @@ namespace MonitoringApi.Models
 {
     public class Litter
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        [Required]
+        public Guid Id { get; set; }
+        [Required]
+        public DateTime DateTime { get; set; }
+        [Required]
+        public float LocationLat { get; set; }
+        [Required]
+        public float LocationLon { get; set; }
+        [Required]
+        public string Category { get; set; }
+        [Required]
         public float Confidence { get; set; }
-        public DateTime Timestamp { get; set; }
-        public string Label { get; set; }
-        public float? LocationLat { get; set; }
-        public float? LocationLon { get; set; }
+        [Required]
+        public float Temperature { get; set; }
     }
 }
