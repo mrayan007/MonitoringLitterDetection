@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'windowsFont';
+    src: url("Fonts/W95FA.otf");
+}
+
+@keyframes rainbowShift {
+    0% {
+      background-position: top;
+    }
+    100% {
+      background-position: bottom;
+    }
+}
+
+.rainbowTextHover:hover {
+    color: transparent;
+    background-image: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet, red);
+    background-size: 100% 300%;
+    background-position: top;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: rainbowShift 2s linear infinite; 
+    text-shadow: none;
+    cursor: url("Art/litterPicker.png"), auto;
+}
+
+html, body {
+    margin: 0;
+    height: 100dvh;
+    width: 100dvw;
+    cursor: url("Art/litterPicker.png"), auto;
+    overflow: hidden;
+    font-family: 'windowsFont';
+    letter-spacing: 1px;
+}
+
+.grabbing {
+    cursor: url("Art/litterPicked.png"), grabbing;
+}
+
+main {
+    background-color: #F6A6BB;
+    height: calc(100% - 50px - 4px - 4px); /* 58px = footer height + border-weight*2 */
+    display: grid;
+}
+
+.desktopApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.desktopApp img {
+    height: 75px;
+    transition: all 0.3s ease-in-out;
+}
+
+.desktopApp img:hover {
+    transform: scale(1.1);
+}
+
+.desktopApp label {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#windowContainer {
+    width: calc(100% - 13px);
+    height: calc(100% - 13px - 58px); /* Full parent height - all margins, paddings, borders */
+    background-color: #c3c3c3;
+    border: solid 3px white;
+    border-style: outset;
+    outline: solid 4px #818181;
+    outline-style: outset;
+    position: fixed;
+    /* left: calc((100% - 90% + 6px + 8px) / 2); */
+    left: 4px;
+    top: 4px;
+    /* top: calc((100% - 100% + 6px + 8px) / 2); */
+    transform: scale(0);
+    transition: transform 0.2s ease;
+    transform-origin: center;
+    display: none;
+    justify-content: center;
+}
+
+#windowHeader {
+    background-image: linear-gradient(to right, #000080 , #1084d0);
+    display: flex;
+    height: 35px;
+    margin: 5px;
+    align-items: center;
+}
+
+#windowHeader img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#windowHeader span {
+    color: white;
+    /* font-weight: bold; */
+    /* font-size: large; */
+    text-shadow: 1px 1px black;
+}
+
+#headerButtons {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 5px;
+    gap: 5px;
+}
+
+#headerButtons button {
+    height: 25px;
+    font-weight: bold;
+    width: 25px;
+}
+
+#contentContainer {
+    background-color: white;
+    display: block;
+    height: calc(100% - 35px - 10px - 6px - 8px - 20px); /* Full parent height - all margins, paddings, borders and header height */
+    margin: 20px;
+    outline: solid 4px white ; 
+    outline-style: inset;
+    border: solid 3px #818181; 
+    border-style: inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: url("Art/litterPicker.png"), pointer;
+    border: 2px solid white;
+    border-style: outset;
+}
+
+button:hover {
+    border-style: inset;
+    outline-style: inset;
+}
+
+iframe {
+    width: 100%;
+    height: calc(100% - 40px); /* Full parent height - margin top - margin bottom*/
+    margin: 20px;
+    border: none;
+}
+
+footer {
+    background-color: #c3c3c3;
+    height: 50px;
+    border: 4px solid white;
+    border-style: outset;
+    padding-right: 5px;
+    padding-left: 5px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    line-height: 50px;
+}

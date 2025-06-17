@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Litter Monitoring</title>
+        <link rel="icon" href="Art/trashCan.png">
+        <link rel="stylesheet" href="indexStyle.css">
+    </head>
+    <body>
+        <main>
+            <div class="desktopApp">
+                <img src="Art/trashCan.png" onclick="openWindow()">
+                <label class="rainbowTextHover">Litter Monitoring</label>
+            </div>
+        </main>
+        <div id="windowContainer">
+            <div id="windowHeader">
+                <img src="Art/trashCan.png" style="scale: 0.7;">
+                <span id="headerText">Litter Dashboard</span>
+                <div id="headerButtons">
+                    <button onclick="closeWindow()">✖</button>
+                </div>
+            </div>
+            <div id="contentContainer">
+                <iframe src="" name="iframe"></iframe>
+            </div>
+        </div>
+        <footer>
+            <span id="dateTime" class="rainbowTextHover" style="float: right;"></span>
+        </footer>
+        <script src="indexScript.js"></script>
+    </body>
+</html>

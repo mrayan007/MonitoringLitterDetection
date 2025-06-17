@@ -1,0 +1,19 @@
+html, body {
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0;
+    cursor: url("Art/litterPicker.png"), auto;
+    overflow: hidden;
+}
+
+.grabbing {
+    cursor: url("Art/litterPicked.png"), grabbing;
+}
+
+#map {
+    height: 100%;
+    width: 50%;
+    cursor: url("Art/litterPicked.png"), grabbing;
+    position: fixed;
+    right: 0;
+}
