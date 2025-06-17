@@ -4,6 +4,8 @@ html, body {
     margin: 0;
     cursor: url("Art/litterPicker.png"), auto;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .grabbing {
@@ -12,8 +14,17 @@ html, body {
 
 #map {
     height: 100%;
-    width: 50%;
-    cursor: url("Art/litterPicked.png"), grabbing;
+    width: 37.5%;
+    cursor: url("Art/litterPicker.png"), crosshair;
     position: fixed;
     right: 0;
+    border-radius: 1%;
+}
+
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+.mapIcon {
+    cursor: url("Art/litterPicked.png"), grabbing;
 }

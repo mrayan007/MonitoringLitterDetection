@@ -28,6 +28,17 @@ builder.Services.AddHttpClient("LocationIqApiClient", client =>
     client.Timeout = TimeSpan.FromSeconds(10); // Optioneel: stel een timeout in
 });
 
+builder.Services.AddHttpClient("SensoringApiClient", client =>
+{
+    var baseUrl = builder.Configuration.GetValue<string>("SensoringApi:BaseUrl");
+    if (string.IsNullOrEmpty(baseUrl))
+    {
+        throw new InvalidOperationException("Sensoring API BaseUrl is niet geconfigureerd in appsettings.json.");
+    }
+    client.BaseAddress = new Uri(baseUrl);
+    client.Timeout = TimeSpan.FromSeconds(30); // Geef meer tijd voor data-ophalen
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
