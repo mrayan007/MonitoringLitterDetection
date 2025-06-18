@@ -50,6 +50,7 @@ html, body {
 
 main {
     height: 100%;
+    max-width: calc(100% - 37.5% - 3px);
 }
 
 main h1, main h2 {

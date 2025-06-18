@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\controllers\\monitoringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:controllers\\monitoringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -26,19 +30,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MonitoringController.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\MonitoringController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MonitoringController.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\MonitoringController.cs",
+              "RelativeToolTip": "Controllers\\MonitoringController.cs",
+              "ViewState": "AgIAANIAAAAAfP0Lh/4PwN8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T21:56:07.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-18T21:53:01.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\AppData\\Roaming\\Microsoft\\UserSecrets\\33eea2d3-73dd-44f0-8ae2-232717fdeb93\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\33eea2d3-73dd-44f0-8ae2-232717fdeb93\\secrets.json",
@@ -51,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PredictionRequest.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\PredictionRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\PredictionRequest.cs",
@@ -61,10 +82,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T21:51:26.377Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

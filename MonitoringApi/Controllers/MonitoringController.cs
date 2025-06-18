@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json; // Needed for JsonSerializer.Deserialize<JsonElement>
+using System.Globalization;
 
 namespace MonitoringApi.Controllers
 {
@@ -234,7 +235,7 @@ namespace MonitoringApi.Controllers
                 // Use the named client configured in Program.cs
                 var locationIqClient = _httpClientFactory.CreateClient("LocationIqApiClient");
                 // The URL here is relative to the BaseAddress set in Program.cs for "LocationIqApiClient"
-                var locationIqUrl = $"reverse.php?key={_locationIqApiKey}&lat={fastApiLocation.Latitude}&lon={fastApiLocation.Longitude}&format=json";
+                var locationIqUrl = $"reverse.php?key={_locationIqApiKey}&lat={fastApiLocation.Latitude.ToString(CultureInfo.InvariantCulture)}&lon={fastApiLocation.Longitude.ToString(CultureInfo.InvariantCulture)}&format=json";
 
                 Console.WriteLine($"DEBUG: Calling LocationIQ: {locationIqClient.BaseAddress}{locationIqUrl}");
                 var locationIqResponse = await locationIqClient.GetAsync(locationIqUrl);
