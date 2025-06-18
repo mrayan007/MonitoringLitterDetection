@@ -6,7 +6,41 @@
     </head>
     <body>
         <main>
-            
+            <h1 class="rainbowText" style="margin-top: -5px;">LITTER PREDICTIONS</h1>
+            <p style="font-size: large;">We can provide a prediction based on the data you choose.</p>
+            <div id="form">
+                <label for="category">SELECT A LITTER CATEGORY</label>
+                <p></p>
+                <select id="category">
+                    <option value="organisch">ORGANIC</option>
+                    <option value="grof metaal">METAL</option>
+                    <option value="blikjes">CANS</option>
+                    <option value="plastic">PLASTIC</option>
+                    <option value="papier">PAPER</option>
+                    <option value="glas">GLASS</option>
+                    <option value="sigaret">CIGARETTE</option>
+                </select>
+                <p></p>
+                <label for="day">SELECT A DAY OF THE WEEK</label>
+                <p></p>
+                <select id="day">
+                    <option value="Monday">MONDAY</option>
+                    <option value="Tuesday">TUESDAY</option>
+                    <option value="Wednesday">WEDNESDAY</option>
+                    <option value="Thursday">THURSDAY</option>
+                    <option value="Friday">FRIDAY</option>
+                    <option value="Saturday">SATURDAY</option>
+                    <option value="Sunday">SUNDAY</option>
+                </select>
+                <p></p>
+                <label for="prediction">SELECT A PREDICTION</label>
+                <p></p>
+                <select id="prediction">
+                    <option value="location">PREDICT LOCATION</option>
+                    <option value="temperature">PREDICT TEMPERATURE</option>
+                </select>
+            </div>
+            <button id="predictButton">PREDICT</button>
         </main>
         <div id="map"></div>
         <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>

@@ -1,3 +1,37 @@
+@font-face {
+    font-family: 'windowsFont';
+    src: url("Fonts/W95FA.otf");
+}
+
+@keyframes rainbowShift {
+    0% {
+      background-position: top;
+    }
+    100% {
+      background-position: bottom;
+    }
+}
+
+@keyframes rainbowLoop {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.rainbowText {
+    color: transparent;
+    background-image: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, violet, red);
+    background-size: 100% 300%;
+    background-position: top;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: rainbowShift 2s linear infinite; 
+}
+
 html, body {
     height: 100dvh;
     width: 100dvw;
@@ -5,11 +39,21 @@ html, body {
     cursor: url("Art/litterPicker.png"), auto;
     overflow: hidden;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    /* align-items: center; */
+    font-family: 'windowsFont';
 }
 
 .grabbing {
     cursor: url("Art/litterPicked.png"), grabbing;
+}
+
+main {
+    height: 100%;
+}
+
+main h1, main h2 {
+    margin-bottom: 10px;
 }
 
 #map {
@@ -18,7 +62,7 @@ html, body {
     cursor: url("Art/litterPicker.png"), crosshair;
     position: fixed;
     right: 0;
-    border-radius: 1%;
+    border-radius: 0.5%;
 }
 
 .leaflet-control-attribution {
@@ -27,4 +71,49 @@ html, body {
 
 .mapIcon {
     cursor: url("Art/litterPicked.png"), grabbing;
+}
+
+select, button {
+    border: 2px solid white;
+    border-style: outset;
+    font-size: large;
+    outline: solid 3px #818181;
+    outline-style: outset;
+    font-family: 'windowsFont';
+    cursor: url("Art/litterPicker.png"), auto;
+    margin-left: 3px;
+}
+
+select:hover {
+    border-style: inset;
+    outline-style: inset;
+}
+
+button:hover {
+    border-style: inset;
+    outline-style: inset;
+}
+
+#form {
+    background: linear-gradient(180deg, red, orange, yellow, green, cyan, blue, violet, red);
+    background-size: 100% 400%;
+    animation: rainbowLoop 6s linear infinite;
+
+    border: 2px solid white;
+    border-style: inset;
+    outline: solid 3px #818181;
+    outline-style: inset;
+    margin-left: 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+#form label {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#predictButton {
+    margin-top: 15px;
+    margin-left: 41%;
 }
