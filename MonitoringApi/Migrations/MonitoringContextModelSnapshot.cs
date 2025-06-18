@@ -22,32 +22,6 @@ namespace MonitoringApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("MonitoringApi.Models.EnrichedLitter", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<float>("Confidence")
-                        .HasColumnType("real");
-
-                    b.Property<DateTime>("DateTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Location")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<float>("Temperature")
-                        .HasColumnType("real");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("EnrichedLitter");
-                });
-
             modelBuilder.Entity("MonitoringApi.Models.Litter", b =>
                 {
                     b.Property<Guid>("Id")
@@ -76,17 +50,6 @@ namespace MonitoringApi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Litter");
-                });
-
-            modelBuilder.Entity("MonitoringApi.Models.EnrichedLitter", b =>
-                {
-                    b.HasOne("MonitoringApi.Models.Litter", "Litter")
-                        .WithOne()
-                        .HasForeignKey("MonitoringApi.Models.EnrichedLitter", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Litter");
                 });
 #pragma warning restore 612, 618
         }
