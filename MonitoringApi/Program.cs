@@ -3,11 +3,41 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 // Removed: using System.Text.Json; // No longer needed if JsonNamingPolicy is not used
 
 var builder = WebApplication.CreateBuilder(args);
 
 // --- 1. Services to the container ---
+
+var jwtSettings = builder.Configuration.GetSection("Jwt");
+var key = Encoding.ASCII.GetBytes(jwtSettings["Secret"]);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false; // Set to true in production!
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = true,
+        ValidIssuer = jwtSettings["Issuer"],
+        ValidateAudience = true,
+        ValidAudience = jwtSettings["Audience"],
+        ValidateLifetime = true,
+        ClockSkew = TimeSpan.Zero // No leeway for expiration
+    };
+});
+
+builder.Services.AddAuthorization();
 
 // AddControllers without JsonOptions. This will use the default JSON serialization (PascalCase).
 builder.Services.AddControllers();
@@ -92,6 +122,7 @@ app.UseHttpsRedirection();
 // This must be called BEFORE UseAuthorization and MapControllers
 app.UseCors(); // Activates the default CORS policy defined above
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

@@ -12,11 +12,13 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json; // Needed for JsonSerializer.Deserialize<JsonElement>
 using System.Globalization;
+using Microsoft.AspNetCore.Authorization; // ADD THIS USING DIRECTIVE FOR [Authorize]
 
 namespace MonitoringApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")] // Your endpoints will now start with /api/Monitoring/
+    // [Authorize] // REMOVED: Do NOT apply [Authorize] at the class level if you want some methods public
     public class MonitoringController : ControllerBase
     {
         private readonly MonitoringContext _context;
@@ -32,8 +34,8 @@ namespace MonitoringApi.Controllers
         private readonly string _sensoringApiBaseUrl;
 
         // FASTAPI and LocationIQ API configuration (NEW)
-        private readonly string _fastApiBaseUrl; // Still needed for console logging to show full URL
-        private readonly string _locationIqBaseUrl; // Still needed for console logging to show full URL
+        private readonly string _fastApiBaseUrl;
+        private readonly string _locationIqBaseUrl;
         private readonly string _locationIqApiKey;
 
 
@@ -49,24 +51,25 @@ namespace MonitoringApi.Controllers
             _sensoringApiLoginPath = configuration.GetValue<string>("SensoringApi:LoginPath")
                                    ?? throw new InvalidOperationException("Sensoring API LoginPath is not configured in appsettings.json or user secrets.");
             _sensoringApiDataPath = configuration.GetValue<string>("SensoringApi:DataPath")
-                                    ?? throw new InvalidOperationException("Sensoring API DataPath is not configured in appsettings.json or user secrets.");
+                                   ?? throw new InvalidOperationException("Sensoring API DataPath is not configured in appsettings.json or user secrets.");
             _sensoringApiLogoutPath = configuration.GetValue<string>("SensoringApi:LogoutPath")
-                                    ?? throw new InvalidOperationException("Sensoring API LogoutPath is not configured in appsettings.json or user secrets.");
+                                   ?? throw new InvalidOperationException("Sensoring API LogoutPath is not configured in appsettings.json or user secrets.");
             _sensoringApiEmail = configuration.GetValue<string>("SensoringApi:Email")
                                    ?? throw new InvalidOperationException("Sensoring API Email is not configured in appsettings.json or user secrets.");
             _sensoringApiPassword = configuration.GetValue<string>("SensoringApi:Password")
-                                    ?? throw new InvalidOperationException("Sensoring API Password is not configured in appsettings.json or user secrets.");
+                                   ?? throw new InvalidOperationException("Sensoring API Password is not configured in appsettings.json or user secrets.");
 
             // FastAPI and LocationIQ API configuration (NEWLY ADDED)
-            _fastApiBaseUrl = configuration.GetValue<string>("FastApiBaseUrl") // Note: The key in appsettings.json for FastAPI is "FastApi:BaseUrl"
+            _fastApiBaseUrl = configuration.GetValue<string>("FastApiBaseUrl")
                               ?? throw new InvalidOperationException("FastApiBaseUrl is not configured in appsettings.json or user secrets.");
             _locationIqBaseUrl = configuration.GetValue<string>("LocationIq:BaseUrl")
-                                 ?? throw new InvalidOperationException("LocationIq:BaseUrl is not configured in appsettings.json or user secrets.");
-            _locationIqApiKey = configuration.GetValue<string>("LocationIq:ApiKey") // Note: The key in appsettings.json for LocationIQ is "LocationIQApi:AccessToken"
+                                   ?? throw new InvalidOperationException("LocationIq:BaseUrl is not configured in appsettings.json or user secrets.");
+            _locationIqApiKey = configuration.GetValue<string>("LocationIq:ApiKey")
                                 ?? throw new InvalidOperationException("LocationIq:ApiKey is not configured in appsettings.json or user secrets.");
         }
 
         // POST: api/Monitoring/FetchAndStoreSensoringData
+        // This endpoint remains public (no [Authorize] here)
         [HttpPost("FetchAndStoreSensoringData")]
         public async Task<IActionResult> FetchAndStoreSensoringData()
         {
@@ -198,6 +201,7 @@ namespace MonitoringApi.Controllers
 
         // Endpoint to predict location
         [HttpPost("predict/location")] // Calls FastAPI's /predict/location
+        [Authorize] // ADDED: This endpoint now requires a valid JWT
         public async Task<IActionResult> PredictLocation([FromBody] PredictionRequest request)
         {
             // Use the named client configured in Program.cs
@@ -271,6 +275,7 @@ namespace MonitoringApi.Controllers
 
         // Endpoint to predict temperature
         [HttpPost("predict/temperature")] // Calls FastAPI's /predict/temperature
+        [Authorize] // ADDED: This endpoint now requires a valid JWT
         public async Task<IActionResult> PredictTemperature([FromBody] PredictionRequest request)
         {
             // Use the named client configured in Program.cs
