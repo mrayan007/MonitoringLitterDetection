@@ -6,7 +6,7 @@ let map = null; // Initialize map as null
 let marker = null; // To store the map marker, so we can update it later
 
 // Your C# API base URL (replace with your actual C# API address)
-const CSHARP_API_BASE_URL = 'https://localhost:7013'; // Confirmed C# API URL
+const CSHARP_API_BASE_URL = 'http://localhost:7013'; // Confirmed C# API URL
 
 // --- Leaflet Map Initialization ---
 // Initialize the map once the DOM is ready, or directly here if 'map' div exists on load

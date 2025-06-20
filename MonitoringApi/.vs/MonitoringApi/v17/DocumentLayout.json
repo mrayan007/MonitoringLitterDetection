@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -20,10 +28,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\monitoringapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:monitoringapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,7 +69,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -73,7 +77,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-20T20:37:49.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MonitoringController.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\MonitoringController.cs",
               "RelativeDocumentMoniker": "Controllers\\MonitoringController.cs",
@@ -86,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -99,33 +116,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-18T21:53:01.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-20T12:41:16.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -138,20 +155,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MonitoringApi.csproj",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\MonitoringApi.csproj",
               "RelativeDocumentMoniker": "MonitoringApi.csproj",
               "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\MonitoringApi.csproj",
               "RelativeToolTip": "MonitoringApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-19T12:18:28.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\AppData\\Roaming\\Microsoft\\UserSecrets\\33eea2d3-73dd-44f0-8ae2-232717fdeb93\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\33eea2d3-73dd-44f0-8ae2-232717fdeb93\\secrets.json",
@@ -164,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "docker-compose.override.yml",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\docker-compose.override.yml",
               "RelativeDocumentMoniker": "docker-compose.override.yml",
@@ -176,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MonitoringApi.http",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\MonitoringApi.http",
               "RelativeDocumentMoniker": "MonitoringApi.http",
@@ -188,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -199,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\.env",
               "RelativeDocumentMoniker": ".env",
@@ -211,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AuthTokenResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\AuthTokenResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\AuthTokenResponseDto.cs",
@@ -223,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AuthRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\AuthRequestDto.cs",
               "RelativeDocumentMoniker": "DTOs\\AuthRequestDto.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PredictionRequest.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\DTOs\\PredictionRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\PredictionRequest.cs",

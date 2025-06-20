@@ -23,5 +23,26 @@ services:
     depends_on:
       - db
 
+  csharpapi:
+    build: ./MonitoringApi
+    environment:
+    - Jwt__Secret=YourVeryLongAndSecureSecretKeyHereThatIsAtLeast32BytesLong
+    - Jwt__Issuer=MonitoringApi
+    - Jwt__Audience=Frontend
+    - Jwt__TokenLifetimeMinutes=60
+    - FastApiBaseUrl=http://fastapi:8000
+    - SensoringApi__BaseUrl=https://litterapi-hvefced3dudddecg.centralus-01.azurewebsites.net
+    - SensoringApi__Email=aao@aao.aao
+    - SensoringApi__Password=AAOpassword0!
+    - SensoringApi__LoginPath=/account/login
+    - SensoringApi__LogoutPath=/account/logout
+    - SensoringApi__DataPath=/litter
+    - LocationIq__ApiKey=pk.32eaabb50dc3f777286f5b10b72a7ea1
+    ports:
+      - "7013:8080"
+    depends_on:
+      - db
+
+
 volumes:
   mssql-data:

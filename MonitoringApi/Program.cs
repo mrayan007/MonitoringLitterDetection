@@ -40,7 +40,11 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization();
 
 // AddControllers without JsonOptions. This will use the default JSON serialization (PascalCase).
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+});
+
 
 builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSwaggerGen(); // Uncomment to enable Swagger UI for API documentation
