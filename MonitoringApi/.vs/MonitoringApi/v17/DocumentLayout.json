@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gebruiker\\AppData\\Roaming\\Microsoft\\UserSecrets\\33eea2d3-73dd-44f0-8ae2-232717fdeb93\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gebruiker\\AppData\\Roaming\\Microsoft\\UserSecrets\\33eea2d3-73dd-44f0-8ae2-232717fdeb93\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF0D48D1-F679-4A06-846E-62C84CCB3542}|MonitoringApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.4\\monitoringlitterdetection\\monitoringapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,13 +57,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.4\\MonitoringLitterDetection\\MonitoringApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-18T21:53:01.087Z",
               "EditorCaption": ""
@@ -108,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\AppData\\Roaming\\Microsoft\\UserSecrets\\33eea2d3-73dd-44f0-8ae2-232717fdeb93\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\33eea2d3-73dd-44f0-8ae2-232717fdeb93\\secrets.json",
