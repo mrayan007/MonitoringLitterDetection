@@ -1,48 +1,48 @@
-version: '3.8'
+# version: '3.8'
 
-services:
-  db:
-    image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: sql1
-    environment:
-      SA_PASSWORD: "LitterMonitoring1!"
-      ACCEPT_EULA: "Y"
-    ports:
-      - "1443:1433"
-    volumes:
-      - mssql-data:/var/opt/mssql
-    restart: unless-stopped
+# services:
+#   db:
+#     image: mcr.microsoft.com/mssql/server:2022-latest
+#     container_name: sql1
+#     environment:
+#       SA_PASSWORD: "LitterMonitoring1!"
+#       ACCEPT_EULA: "Y"
+#     ports:
+#       - "1443:1433"
+#     volumes:
+#       - mssql-data:/var/opt/mssql
+#     restart: unless-stopped
 
-  fastapi:
-    build: ./FastApi
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./FastApi:/app
-    command: uvicorn main:app --host 0.0.0.0 --port 8000
-    depends_on:
-      - db
+#   fastapi:
+#     build: ./FastApi
+#     ports:
+#       - "8000:8000"
+#     volumes:
+#       - ./FastApi:/app
+#     command: uvicorn main:app --host 0.0.0.0 --port 8000
+#     depends_on:
+#       - db
 
-  csharpapi:
-    build: ./MonitoringApi
-    environment:
-    - Jwt__Secret=YourVeryLongAndSecureSecretKeyHereThatIsAtLeast32BytesLong
-    - Jwt__Issuer=MonitoringApi
-    - Jwt__Audience=Frontend
-    - Jwt__TokenLifetimeMinutes=60
-    - FastApiBaseUrl=http://fastapi:8000
-    - SensoringApi__BaseUrl=https://litterapi-hvefced3dudddecg.centralus-01.azurewebsites.net
-    - SensoringApi__Email=aao@aao.aao
-    - SensoringApi__Password=AAOpassword0!
-    - SensoringApi__LoginPath=/account/login
-    - SensoringApi__LogoutPath=/account/logout
-    - SensoringApi__DataPath=/litter
-    - LocationIq__ApiKey=pk.32eaabb50dc3f777286f5b10b72a7ea1
-    ports:
-      - "7013:8080"
-    depends_on:
-      - db
+#   csharpapi:
+#     build: ./MonitoringApi
+#     environment:
+#     - Jwt__Secret=YourVeryLongAndSecureSecretKeyHereThatIsAtLeast32BytesLong
+#     - Jwt__Issuer=MonitoringApi
+#     - Jwt__Audience=Frontend
+#     - Jwt__TokenLifetimeMinutes=60
+#     - FastApiBaseUrl=http://fastapi:8000
+#     - SensoringApi__BaseUrl=https://litterapi-hvefced3dudddecg.centralus-01.azurewebsites.net
+#     - SensoringApi__Email=aao@aao.aao
+#     - SensoringApi__Password=AAOpassword0!
+#     - SensoringApi__LoginPath=/account/login
+#     - SensoringApi__LogoutPath=/account/logout
+#     - SensoringApi__DataPath=/litter
+#     - LocationIq__ApiKey=pk.32eaabb50dc3f777286f5b10b72a7ea1
+#     ports:
+#       - "7013:8080"
+#     depends_on:
+#       - db
 
 
-volumes:
-  mssql-data:
+# volumes:
+#   mssql-data:
